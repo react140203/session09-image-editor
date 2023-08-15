@@ -12,5 +12,5 @@ animation:
         "react-native-reanimated/plugin",
         ],
 
-    npx expo start
+    npx expo start -c
     npm run android -c
