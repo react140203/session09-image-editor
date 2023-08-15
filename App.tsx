@@ -42,6 +42,7 @@ export default function App() {
 
   const onReset = () => {
     setShowAppOptions(false);
+    setPickedEmoji(null);
   };
 
   return (
