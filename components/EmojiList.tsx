@@ -13,7 +13,7 @@ export default function EmojiList({ onSelect, onCloseModal }: any) {
       require("../assets/images/emoji5.png"),
       require("../assets/images/emoji6.png"),
     ]);
-  });
+  }, []);
 
   return (
     <FlatList
